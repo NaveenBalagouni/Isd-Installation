@@ -9,8 +9,8 @@ global:
     host: IsdInstall.hyd-dev.opsmx.net # Replace the ISD URL
 
   spinDeck:
-    protocol: http # Set to https if global.certManager and global.ssl is true
-    host: 4031isd.training.opsmx.net   # Replace the Spinnaker URL
+    protocol: https # Set to https if global.certManager and global.ssl is true
+    host: IsdInstall.hyd-dev.opsmx.net   # Replace the Spinnaker URL
 
   # Set to true if you are using the saml/Okta for Spinnaker
   auth:
